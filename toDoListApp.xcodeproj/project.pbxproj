@@ -11,6 +11,8 @@
 		BD61A66C2A66E7450018CA6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61A66B2A66E7450018CA6C /* ContentView.swift */; };
 		BD61A66E2A66E7460018CA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61A66D2A66E7460018CA6C /* Assets.xcassets */; };
 		BD61A6712A66E7460018CA6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61A6702A66E7460018CA6C /* Preview Assets.xcassets */; };
+		BD61A6782A66E78B0018CA6C /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61A6772A66E78B0018CA6C /* toDoList.swift */; };
+		BD61A67A2A66EBEA0018CA6C /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61A6792A66EBE90018CA6C /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD61A66B2A66E7450018CA6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD61A66D2A66E7460018CA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD61A6702A66E7460018CA6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD61A6772A66E78B0018CA6C /* toDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoList.swift; sourceTree = "<group>"; };
+		BD61A6792A66EBE90018CA6C /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BD61A6692A66E7450018CA6C /* toDoListAppApp.swift */,
 				BD61A66B2A66E7450018CA6C /* ContentView.swift */,
+				BD61A6792A66EBE90018CA6C /* NewToDoView.swift */,
+				BD61A6772A66E78B0018CA6C /* toDoList.swift */,
 				BD61A66D2A66E7460018CA6C /* Assets.xcassets */,
 				BD61A66F2A66E7460018CA6C /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BD61A66C2A66E7450018CA6C /* ContentView.swift in Sources */,
 				BD61A66A2A66E7450018CA6C /* toDoListAppApp.swift in Sources */,
+				BD61A6782A66E78B0018CA6C /* toDoList.swift in Sources */,
+				BD61A67A2A66EBEA0018CA6C /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
