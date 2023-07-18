@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var toDoItems: [ToDoItem] = []
+    @State var toDoItem: [ToDoItem] = []
     @State private var showNewTask = false
     
     
@@ -26,17 +26,27 @@ struct ContentView: View {
                     
                 }
             }.padding()
+            List {
+                    ForEach (toDoItem) { toDoList in
+                            Text(toDoList.title)
+                        }
+            }
         }
-       
+        
             
-        if showNewTask {
-            NewToDoView(title: "", isImportant: false)
-                }
-    }
-}
+        
+            if showNewTask {
+                NewToDoView(title: "", isImportant: false)
+            }
+        
+     
+        }
+        }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
+
